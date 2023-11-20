@@ -1,0 +1,81 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mainDiv {
+  background-color: #faf0e6;
+}
+
+html {
+  background-color: #faf0e6;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-subtitle {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.buttonDiv {
+  padding: 0px;
+}
+
+
+@media screen and (max-width: 400px) {
+ 
+  .card-title {
+    font-size: .85rem;
+  }
+  
+  .card-subtitle {
+    font-size: .85rem;
+  }
+  
+  .card-text {
+    font-size: .65rem;
+  }
+
+  .homeButton {
+    padding: .2rem, .5rem ;
+    font-size: .85rem;
+  }
+
+
+
+
+}
